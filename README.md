@@ -33,7 +33,7 @@ This extension is not on the Edge Add-ons store. Load it manually in developer m
 2. Open Microsoft Edge and navigate to `edge://extensions/`
 3. Enable **Developer mode** (toggle in the top-left)
 4. Click **Load unpacked**
-5. Select the `shorts-resistance/` folder
+5. Select the folder
 6. Open any [YouTube Short](https://www.youtube.com/shorts/) and start resisting
 
 ---
@@ -41,7 +41,7 @@ This extension is not on the Edge Add-ons store. Load it manually in developer m
 ## Files
 
 ```
-shorts-resistance/
+resist-scroll/
 ├── manifest.json   — Extension manifest (Manifest V3)
 ├── content.js      — Navigation interception and counter logic
 ├── overlay.css     — On-screen counter UI styles
