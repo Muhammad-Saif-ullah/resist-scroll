@@ -1,6 +1,6 @@
 # resist-scroll
 
-> A Microsoft Edge extension that adds increasing friction to YouTube Shorts navigation — making you earn every scroll.
+> A browser extension that adds increasing friction to YouTube Shorts navigation — making you earn every scroll.
 
 ---
 
