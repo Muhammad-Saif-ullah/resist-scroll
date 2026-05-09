@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Shorts Resistance Trainer",
+  "version": "1.0.0",
+  "description": "Adds increasing friction to YouTube Shorts navigation to build scroll resistance.",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/shorts/*"],
+      "js": ["content.js"],
+      "css": ["overlay.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
